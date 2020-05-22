@@ -21,14 +21,14 @@ public class Student extends InterMediateStudent {
     }
 
     public static void main(String[] args) {
-       Person p1 = new InterMediateStudent();
-       p1.display();
+      Automation automation = new Automation();
+      WebDriver driver = new Chrome();
+      automation.testOpenBroswer(driver);
+      automation.closeBroswer(driver);
 
-       IPrint print = new LinuxPrinter();
-
-       PrinterManager obj = new PrinterManager();
-
-       obj.print(print);
+      // Ananous classes
+        // java 8 changes in the interface
+        // inhertittance in interface/
     }
 
 

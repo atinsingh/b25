@@ -1,0 +1,39 @@
+difference between abstract class and interface
+
+      Abstract class                            interface
+      you can only extend one                   you can implement more than
+      abstract class at a time
+
+      abstract class can                        no instance variables allowed
+      have instance variables
+
+Java7 --                                       methods are 100% abstract
+
+      can I static method ?
+Java 7      yes                                 no
+Java 8      yes                                 yes
+
+----------
+What is so good ?
+
+java 8 was complete makeover for interface
+__________________________________________
+Functional Programming --> Object Oriented Programming
+
+function === methods
+functions are treated as first class citizen
+
+java 8 added functional interface
+
+
+public class  implements IGreeting {
+    @Override
+    public String greet() {
+        return "How are you doing ?";
+    }
+
+    @Override
+    public void display() {
+
+    }
+}
