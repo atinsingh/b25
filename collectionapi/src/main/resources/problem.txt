@@ -1,0 +1,41 @@
+create a program
+which will allow us to hold
+name of student and thier course.
+
+students number may be from 0 to unknown
+
+1. Should be able to add to schedule
+2. should be able to remove from schedule
+3. print the number student
+4. print details of every every student.
+
+// List is an unordered/unsorted collection of element.
+
+
+// Build a shopping system
+// User Account             //USER
+    -- Add a user
+    -- remove a user
+    -- update user
+
+//UserList
+// Product                  //PRODUCT
+    -- add a product
+    -- remove a product
+    -- add stock
+    -- change price
+// ProuctList -- Maitain the all products
+
+// Shopping cart            //SHOPPING
+                               // User
+                                // List<Product>
+                                // add
+                                //chekcout
+    -- add a product
+    -- remove a product
+    -- checkout -- on check out print full shopping
+            with price and tax calculated.
+// Order
+        crate an order
+
+
